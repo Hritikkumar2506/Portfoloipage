@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400;6..96,900&family=Lato:wght@100;300&family=Poppins:wght@400;600;700&family=Tektur:wght@700&family=VT323&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="st.css">
+</head>
+<body>
+   
+    <header>
+        <nav>
+            <div class="left-nav">Hritik's Portfolio</div>
+            <div class="right-nav" id="navLinks">
+                <ul>
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#Skills">Skill</a></li>
+                    <li><a href="#Education">Education</a></li>
+                    <li><a href="#Contact">Contact Me</a></li>
+                </ul>
+            </div>
+
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection" id="Home">
+            <div class="leftSection">
+                Hi, My name is <span class="text-purple">HRITIK KUMAR</span> 
+                <div>and I am a aspiring</div>
+                <div>Software Engineer</div>
+                <span id="element"></span>
+                <div class="buttons">
+                <button class="btn" href=#>Download Resume</button>
+                <button class="btn" href=#>Visit GitHub</button>
+               </div>
+            </div>
+            <div class="rightSection">
+                <img src="light.jpg" alt="">
+            </div>
+        </section>
+    
+<hr>
+     
+        <section class="secondSection" id="Skills">
+            <span class="text-gray">My Technical Skills</span>
+            <h1>SKILLS</h1>
+            <div class="box">
+                
+                <div class="secondVertical">
+                    <img class="image-top" src="download.png" alt="">
+                    <div class="vertical-title">
+                        C
+                    </div>
+                </div>
+                <div class="secondVertical">
+                    <img class="image-top" src="download (1).png" alt="">
+                    <div class="vertical-title">
+                        HTML
+                    </div>
+                </div>
+                <div class="secondVertical">
+                    <img class="image-top" src="download.jpeg" alt="">
+                    <div class="vertical-title">
+                        CSS
+                    </div>
+                </div>
+                <div class="secondVertical">
+                    <img class="image-top" src="download (1).jpeg" alt="">
+                    <div class="vertical-title">
+                        JavaScript
+                    </div>
+                </div>
+                <div class="secondVertical">
+                    <img class="image-top" src="download (2).png" alt="">
+                    <div class="vertical-title">
+                        Github
+                    </div>
+                </div>
+               
+                </div>
+            </div>
+        </section>   
+<hr>
+
+        <section class="fourthSection" id="Certificates">
+            <span class="text-gray"><h2>My Achievements </h2></span>
+           
+            <div class="box">
+                <div class="fourthVertical">
+                   
+                    <div class="vertical-title">
+                        <a href="#">Master in C</a>
+                    </div>
+                   
+                </div>
+                <div class="fourthVertical">
+                  
+                    <div class="vertical-title">
+                        <a href="#">Master in HTML  CSS</a>
+                    </div>
+                   
+                </div>
+                <div class="fourthVertical">
+                  
+                    <div class="vertical-title">
+                        <a href="#">Basic in javascript
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+<hr>
+           <section class="fifthSection" id="Education">
+            <h1>EDUCATION</h1>
+            <div class="box">
+                <div class="fifthVertical">
+                    <div class="vertical-title">
+                        B.Tech in Computer Science and Engineering
+                    </div>
+                    <div class="vertical-desc">
+                        <div>from Abdul kalam University</div>
+                        <div>(2022-2026)</div>
+                    </div>
+                </div>
+                <div class="fourthVertical">
+                    
+                    <div class="vertical-title">
+                        Higher Secondary
+                    </div>
+                    <div class="vertical-desc">
+                        <div>from Bihar school of examination board</div>
+                        <div>(2020-2022)</div>
+                    </div>
+                </div>
+                <div class="fourthVertical">
+                    <div class="vertical-title">
+                        Matriculation
+                    </div>
+                    <div class="vertical-desc">
+                        <div>from CBSE New Delhi</div>
+                       
+                        <div>(2019-2020)</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+<hr>    
+     <footer id="Contact">
+        <div class="footer">
+            <div class="footer-first">
+                <h1>Contact with me</h1>
+                <div class="contact">
+                    <i><img class="image" src="image/home.png" alt=""></i>
+                    <span>
+                        <h4>II-A/27, Action Area II, Newtown</h4>
+                        <p class="text-gray">Kolkata, West Bengal 700156</p>
+                    </span>
+                </div>
+                <div class="contact">
+                    <i><img class="image" src="image/call.png" alt=""></i>
+                    <span>
+                        <h4>+91 988866644</h4>
+                        <p class="text-gray">Monday to Saturday, 10AM to 6PM</p>
+                    </span>
+                </div>
+                <div class="contact">
+                    <i><img class="image" src="image/email.png" alt=""></i>
+                    <span>
+                        <h4>hritikkumar2506@gmail.com</h4>
+                        <p class="text-gray">Email me your query</p>
+                    </span>
+                </div>
+               
+            </div>
+            <div class="footer-second">
+                <h1 class="contact-form">Contact Form</h1>
+                <form onsubmit="sendEmail(); reset(); return false;">
+                <input type="text" name="Name" id="name" placeholder="Full Name" required>
+                <input type="email" name="Email" id="email" placeholder="Email" required>
+                <textarea id="message" name="Message" placeholder="Message" required></textarea>
+                <button class="btn" type="submit">Submit</button>
+            </form>
+            </div>
+        </div>
+         <div class="footer-container">
+        <div class="social-media">
+            <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+        </div>
+        <div class="footer-text">
+            Copyright &#169; Hritik Kumar | All rights reserved
+        </div>
+    </div>
+     </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Web Developer', 'Web Designer', 'Programmer'],
+      typeSpeed: 50,
+    });
+  </script>
+ 
+<script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+    function sendEmail(){
+     (function(){
+        emailjs.init("r4Obk9WL1eX1yCLNE"); 
+     })();
+
+     var params = {
+        Name: document.querySelector("#name").value,
+        Email: document.querySelector("#email").value,
+        Message: document.querySelector("#message").value,
+     };
+     var serviceID = "service_4jzsdgq"; 
+     var templateID = "template_j9m2dw1";
+
+     emailjs.send(serviceID, templateID, params)
+     .then(res => {
+        alert("Email sent successfully");
+     })
+     .catch();
+    }
+</script>
+</body>
+</html>
